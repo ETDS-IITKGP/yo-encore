@@ -18,10 +18,9 @@ var settings=
 	},
 	movies:
 	[
-		"Encore Welcome Production" //,
-		//"Fresher's Production",
-		//"Annual Production"
-
+		"Encore Welcome Production",
+		"Encore Welcome Production",
+		"Encore Welcome Production"
 	]
 };
 
