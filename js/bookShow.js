@@ -19,8 +19,8 @@ var settings=
 	movies:
 	[
 		"Encore Welcome Production",
-		"Encore Welcome Production",
-		"Encore Welcome Production"
+		"None",
+		"None"
 	]
 };
 
@@ -128,7 +128,7 @@ function setUpClickBinding()
 							{
 								if(isSingleSiloCreated(selectingSeatArray))
 								{
-									$('.seats_alert > span').html("Single silo created");
+									$('.seats_alert > span').html("Refresh_Please");
 									$('.seats_alert').removeClass('.alert-success').addClass('alert-danger');
 									$('.seats_alert').show();
 								}
@@ -171,7 +171,7 @@ function isAdjacentSeat(selectedSeatArray)
 		if(selectingSeatArray[i]!=(parseInt(prev_value)+1))
 		{
 			
-			$('.seats_alert > span').html("Please select adjacent seats");
+			$('.seats_alert > span').html("Refresh_Please");
 			$('.seats_alert').removeClass('.alert-success').addClass('alert-danger');
 			$('.seats_alert').show();
 			return false;
